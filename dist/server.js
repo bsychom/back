@@ -11,3 +11,4 @@ app.get('/', (req, res) => {
 app.listen(5000, () => {
     console.log('server is listeen on port 5000');
 });
+//# sourceMappingURL=server.js.map
