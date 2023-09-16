@@ -11,6 +11,10 @@ app.get('/' , (req, res) =>{
 })
 
 
+app.get('/users', (req, res) =>{
+    res.send('this is users')
+})
+
 app.listen(5000, () =>{
     console.log('server is listeen on port 5000');
 })
