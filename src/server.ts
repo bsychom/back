@@ -7,7 +7,7 @@ const app : Express = express();
 
 
 app.get('/' , (req, res) =>{
-    res.send('hello from server');
+    res.send('hello from server typescript');
 })
 
 
